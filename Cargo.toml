@@ -1,0 +1,22 @@
+[package]
+name = "rust_donut"
+version = "0.1.0"
+edition = "2021"
+authors = ["skyline69"]
+description = "The C Donut in Rust"
+license = "MIT"
+
+[dependencies]
+rayon = "1.7.0"
+
+[profile.release]
+opt-level = 3
+overflow-checks = false
+lto = true
+codegen-units = 1
+debug = false
+panic = "abort"
+incremental = false
+rpath = false
+debug-assertions = false
+strip = true
