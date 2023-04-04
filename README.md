@@ -1,7 +1,7 @@
 # <p align="center"> __Rust Donut 🍩__ </p>
 This is a Rust implementation of the famous **C Donut**. The code uses the Rayon library for parallel processing and is optimized for performance to make the donut rendering as fast as possible.
 ## Usage
-To run the program, simply clone the repository, navigate to the project's root directory, and run this:
+To run the program do this:
 <br><br>
 ![grafik](https://user-images.githubusercontent.com/67526259/229888088-b2ced43e-c0f1-4095-9ace-a465bf317f1a.png)
 
