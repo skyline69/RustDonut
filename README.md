@@ -22,5 +22,5 @@ This project is licensed under the MIT License.
 The original C implementation of the Donut was created by <a href="https://www.a1k0n.net/2011/07/20/donut-math.html">Andy Sloane</a>. This Rust implementation was created by skyline69.
 
 ## Notes
-
 This implementation includes a trait UncheckedIndexExt to make the code safer when accessing elements of a string slice by index. This trait is not necessary, but improves the performance of the code.
+### Btw: This project is **NOT** endorsed by the rust foundation 😉
