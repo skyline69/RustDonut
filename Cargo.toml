@@ -7,7 +7,7 @@ description = "The C Donut in Rust"
 license = "MIT"
 
 [dependencies]
-rayon = "1.7.0"
+rayon = "1.10.0"
 
 [profile.release]
 opt-level = 3
